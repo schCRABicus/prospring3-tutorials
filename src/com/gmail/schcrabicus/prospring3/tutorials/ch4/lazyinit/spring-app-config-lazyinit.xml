@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="regular" class="com.gmail.schcrabicus.prospring3.tutorials.ch4.lazyinit.RegularBean">
+        <constructor-arg>
+            <value>Regular</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="regularPrototype" class="com.gmail.schcrabicus.prospring3.tutorials.ch4.lazyinit.RegularBean" scope="prototype">
+        <constructor-arg>
+            <value>Regular prototype</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="lazy" class="com.gmail.schcrabicus.prospring3.tutorials.ch4.lazyinit.LazyInitBean" lazy-init="true">
+        <constructor-arg>
+            <value>Lazy</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="lazyPrototype" class="com.gmail.schcrabicus.prospring3.tutorials.ch4.lazyinit.LazyInitBean" scope="prototype" lazy-init="true">
+        <constructor-arg>
+            <value>Lazy prototype</value>
+        </constructor-arg>
+    </bean>
+
+</beans>

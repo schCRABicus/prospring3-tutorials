@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="injectSimple" class="com.gmail.schcrabicus.prospring3.tutorials.ch4.value.injection.simple.InjectSimple">
+        <property name="name">
+            <value>Kolya</value>
+        </property>
+
+        <property name="age">
+            <value>23</value>
+        </property>
+
+        <property name="height">
+            <value>1.75</value>
+        </property>
+
+        <property name="programmer">
+            <value>true</value>
+        </property>
+
+        <property name="ageInSeconds">
+            <value>101212109912</value>
+        </property>
+    </bean>
+
+</beans>

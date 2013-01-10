@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="collectionInjection" class="com.gmail.schcrabicus.prospring3.tutorials.ch4.collection.injection.xml.CollectionInjection">
+        <property name="map">
+            <map>
+                <entry key="someValue">
+                    <value>Hello world!!</value>
+                </entry>
+                <entry key="anotherValue">
+                    <value>Goodbye world!!</value>
+                </entry>
+            </map>
+        </property>
+
+        <property name="props">
+            <props>
+                <prop key="firstName">Kolya</prop>
+                <prop key="lastName">Shmolya</prop>
+            </props>
+        </property>
+
+        <property name="set">
+            <set>
+                <value>set - Hello world!!</value>
+                <value>set - Hello world - 2!!</value>
+                <value>set - Hello world!!</value>
+            </set>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>list - Hello world!!</value>
+                <value>list - Hello world - 2!!</value>
+                <value>list - Hello world!!</value>
+            </list>
+        </property>
+
+    </bean>
+
+</beans>
