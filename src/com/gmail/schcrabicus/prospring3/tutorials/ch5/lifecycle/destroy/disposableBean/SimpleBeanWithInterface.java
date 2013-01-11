@@ -44,7 +44,7 @@ public class SimpleBeanWithInterface implements InitializingBean, DisposableBean
         //ApplicationContext ctx = new ClassPathXmlApplicationContext("classpath:**/lifecycle/destroy/xml/spring-app.xml");
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:**/lifecycle/destroy/disposableBean/spring-app.xml");
-        ctx.registerShutdownHook();
+        ctx.registerShutdownHook(); //shutdown hook registered; there is no need to call for destroy() method;
         ctx.refresh();
 
         getBean("simpleBean1", ctx);
@@ -52,7 +52,7 @@ public class SimpleBeanWithInterface implements InitializingBean, DisposableBean
         getBean("simpleBean3", ctx);
 
         System.out.println("Destroying ApplicationContext....");
-        ctx.destroy();
+        //ctx.destroy();
     }
 
     public static SimpleBeanWithInterface getBean (String beanName, ApplicationContext ctx){

@@ -2,14 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a4f178-416e-477e-8696-d4df32bdcf43" name="Initial commit" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/method/injection/AbstractLookupDemoBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/collection/injection/annotation/CollectionInjection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/collection/injection/xml/CollectionInjection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/constructor/ConfigurableMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/method/injection/DemoBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/autowired/HelloWorldMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/resource/HelloWorldMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/constructor/HelloWorldMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/setter/HelloWorldMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/annotations/HelloWorldMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/xml/HelloWorldMessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/simple/InjectSimple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/spel/InjectSimpleConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/spel_annotation/InjectSimpleConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/spel/InjectSimpleSpel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/spel_annotation/InjectSimpleSpel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/lazyinit/Launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/lazyinit/LazyInitBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/method/injection/LookupDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/autowired/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/resource/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/constructor/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/setter/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/annotations/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/xml/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/constructor/MessageProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/autowired/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/resource/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/constructor/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/setter/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/annotations/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/xml/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/constructor/MessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/method/injection/MyHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/scope/NonSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/lazyinit/RegularBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/SimpleBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/SimpleBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/init/xml/SimpleBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/init/initializingBean/SimpleBeanWithInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/init/annotation/SimpleBeanWithJSR250.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/method/injection/StandardLookupDemoBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/autowired/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/resource/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/constructor/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/setter/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/annotations/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/xml/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/constructor/StandardOutMessageRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/annotations/app-context-annotations.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/xml/app-context-xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/application.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ant-build-properties/build.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ivy.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jars.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jars1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/autowired/launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/resource/launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/constructor/launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/setter/launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/annotations/launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/simple/injection/xml/launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/constructor/launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/.IntelliJIdea12/config/options/runner.layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/collection/injection/annotation/spring-app-config-collection-injection-annotation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/collection/injection/xml/spring-app-config-collection-injection-xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/lazyinit/spring-app-config-lazyinit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/method/injection/spring-app-config-method-injection.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/scope/spring-app-config-nonsingleton.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/spring-app.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/spring-app.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/spring-app.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/init/annotation/spring-app.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/init/initializingBean/spring-app.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/init/xml/spring-app.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/autowired/spring-application-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/annotation/resource/spring-application-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/constructor/spring-application-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/constructor/spring-application-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/simple/spring-application-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/spel/spring-application-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/spel_annotation/spring-application-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/setter/spring-application-xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/SimpleBeanWithInterface.java" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/SimpleBeanWithInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="prospring3-tutorials-standalone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357796788372" ignored="false" />
+    <file path="/Dummy.txt" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357876930247" ignored="false" />
     <file path="/ivy.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357027071602" ignored="false" />
     <file path="$PROJECT_DIR$/../first-spring-hibernate-simple/ivy.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357026913912" ignored="false" />
     <file path="/build.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357028420151" ignored="false" />
@@ -45,7 +129,7 @@
     <file path="/spring-app-config-lazyinit.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357622649969" ignored="false" />
     <file path="/SimpleBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357625731426" ignored="false" />
     <file path="/spring-app.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357625826301" ignored="false" />
-    <file path="/SimpleBeanWithInterface.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357625612440" ignored="false" />
+    <file path="/SimpleBeanWithInterface.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357878271501" ignored="false" />
     <file path="/SimpleBeanWithJSR250.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357624327110" ignored="false" />
     <file path="/.gitignore" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357796102506" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +146,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -97,6 +180,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -109,16 +193,16 @@
       <file leaf-file-name="SimpleBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/SimpleBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="34" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+            <state line="69" column="51" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="SimpleBeanWithInterface.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/SimpleBeanWithInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="110" selection-start="8" selection-end="8" vertical-scroll-proportion="0.06593407">
+            <state line="40" column="24" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.5134474">
               <folding />
             </state>
           </provider>
@@ -165,18 +249,18 @@
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/spring-app.xml" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/SimpleBean.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/spring-app.xml" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/SimpleBeanWithInterface.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/SimpleBean.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/spring-app.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/SimpleBeanWithInterface.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -332,7 +416,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="annotation" />
+              <option name="myItemId" value="disposableBean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,8 +454,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,9 +474,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -409,7 +493,7 @@
       <recent name="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/injection/constructor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleBean">
+  <component name="RunManager" selected="Application.SimpleBeanWithInterface">
     <configuration default="false" name="NonSingleton" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -534,6 +618,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -560,19 +657,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -620,8 +704,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SimpleBean" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SimpleBeanWithInterface" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SimpleBeanWithInterface" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SimpleBean" />
         <item index="2" class="java.lang.String" itemvalue="Application.SimpleBean" />
         <item index="3" class="java.lang.String" itemvalue="Application.SimpleBeanWithJSR250" />
         <item index="4" class="java.lang.String" itemvalue="Application.SimpleBeanWithInterface" />
@@ -660,10 +744,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22632423" sideWeight="0.49083665" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2256" sideWeight="0.49083665" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -675,18 +759,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2199037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21348314" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16494024" sideWeight="0.77367574" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30016053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16494024" sideWeight="0.6998395" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30016053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21348314" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -803,11 +887,6 @@
         <state line="14" column="64" selection-start="536" selection-end="564" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/spring-app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="113" selection-start="997" selection-end="997" vertical-scroll-proportion="-13.2" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/SimpleBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="22" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0" />
@@ -816,11 +895,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/spring-app.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="137" selection-start="1028" selection-end="1028" vertical-scroll-proportion="-12.6" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/SimpleBeanWithInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="39" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/init/annotation/spring-app.xml">
@@ -837,16 +911,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/SimpleBean.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="34" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+        <state line="2" column="110" selection-start="8" selection-end="8" vertical-scroll-proportion="0.06593407" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/spring-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="113" selection-start="997" selection-end="997" vertical-scroll-proportion="0.57591623">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/SimpleBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="110" selection-start="8" selection-end="8" vertical-scroll-proportion="0.06593407">
+        <state line="69" column="51" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/SimpleBeanWithInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="24" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.5134474">
           <folding />
         </state>
       </provider>
