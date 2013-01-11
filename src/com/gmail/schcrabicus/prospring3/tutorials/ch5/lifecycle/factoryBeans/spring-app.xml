@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="digest1" class="com.gmail.schcrabicus.prospring3.tutorials.ch5.lifecycle.factoryBeans.MessageDigestFactoryBean">
+
+    </bean>
+
+    <bean id="digest2" class="com.gmail.schcrabicus.prospring3.tutorials.ch5.lifecycle.factoryBeans.MessageDigestFactoryBean">
+        <property name="algorithmName">
+            <value>SHA1</value>
+        </property>
+    </bean>
+
+    <bean id="digester" class="com.gmail.schcrabicus.prospring3.tutorials.ch5.lifecycle.factoryBeans.MessageDigester">
+        <property name="digest1">
+            <ref local="digest1" />
+        </property>
+        <property name="digest2">
+            <ref local="digest2" />
+        </property>
+    </bean>
+
+</beans>
