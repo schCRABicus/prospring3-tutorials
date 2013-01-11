@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a4f178-416e-477e-8696-d4df32bdcf43" name="Initial commit" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/MessageDigestFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/MessageDigestFactoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/MessageDigester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/MessageDigester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/MessageDigesterLauncher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/MessageDigesterLauncher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/PropertyEditorBean.java" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/.IntelliJIdea12/config/options/runner.layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/spring-app.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/spring-app.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/spring-app.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="prospring3-tutorials-standalone.iws" />
@@ -50,7 +44,7 @@
     <file path="/Launcher.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357622491833" ignored="false" />
     <file path="/spring-app-config-lazyinit.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357622649969" ignored="false" />
     <file path="/SimpleBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357625731426" ignored="false" />
-    <file path="/spring-app.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357880454188" ignored="false" />
+    <file path="/spring-app.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357883182195" ignored="false" />
     <file path="/SimpleBeanWithInterface.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357878271501" ignored="false" />
     <file path="/SimpleBeanWithJSR250.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357624327110" ignored="false" />
     <file path="/.gitignore" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357796102506" ignored="false" />
@@ -58,6 +52,7 @@
     <file path="/MessageDigestFactoryBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357880287651" ignored="false" />
     <file path="/MessageDigester.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357879597673" ignored="false" />
     <file path="/MessageDigestFactory.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357880286480" ignored="false" />
+    <file path="/PropertyEditorBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357881751543" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,37 +111,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MessageDigestFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/MessageDigestFactory.java">
+      <file leaf-file-name="PropertyEditorBean.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/PropertyEditorBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="58" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="111" column="44" selection-start="3342" selection-end="3342" vertical-scroll-proportion="0.42553192">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-app.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/spring-app.xml">
+      <file leaf-file-name="spring-app.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/spring-app.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="44" selection-start="909" selection-end="909" vertical-scroll-proportion="0.8181818">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageDigesterLauncher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/MessageDigesterLauncher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="62" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageDigester.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/MessageDigester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+            <state line="86" column="26" selection-start="3070" selection-end="3070" vertical-scroll-proportion="-11.52">
               <folding />
             </state>
           </provider>
@@ -172,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/spring-app.xml" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/SimpleBean.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/spring-app.xml" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/SimpleBean.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/spring-app.xml" />
@@ -188,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/MessageDigestFactory.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/spring-app.xml" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/MessageDigesterLauncher.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/PropertyEditorBean.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/spring-app.xml" />
       </list>
     </option>
   </component>
@@ -265,92 +244,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="init" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifecycle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="init" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifecycle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factoryBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifecycle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factoryBeans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -409,6 +302,204 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-beans-3.1.2.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-beans-3.1.2.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-beans-3.1.2.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="propertyeditors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-beans-3.1.2.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-beans-3.1.2.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -450,29 +541,7 @@
       <recent name="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MessageDigesterLauncher">
-    <configuration default="false" name="Launcher" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.schcrabicus.prospring3.tutorials.ch4.lazyinit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch4.lazyinit.Launcher" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="prospring3-tutorials-standalone" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PropertyEditorBean">
     <configuration default="false" name="SimpleBeanWithJSR250" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -547,6 +616,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch5.lifecycle.factoryBeans.xml.MessageDigesterLauncher" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="prospring3-tutorials-standalone" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PropertyEditorBean" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.schcrabicus.prospring3.tutorials.ch5.lifecycle.propertyEditors.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch5.lifecycle.propertyEditors.xml.PropertyEditorBean" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -653,18 +744,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Launcher" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SimpleBeanWithJSR250" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SimpleBeanWithInterface" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SimpleBean" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MessageDigesterLauncher" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SimpleBeanWithJSR250" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SimpleBeanWithInterface" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SimpleBean" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MessageDigesterLauncher" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PropertyEditorBean" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MessageDigesterLauncher" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PropertyEditorBean" />
         <item index="1" class="java.lang.String" itemvalue="Application.MessageDigesterLauncher" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SimpleBeanWithInterface" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SimpleBean" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MessageDigesterLauncher" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SimpleBeanWithInterface" />
         <item index="4" class="java.lang.String" itemvalue="Application.SimpleBean" />
       </list>
     </recent_temporary>
@@ -800,37 +891,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/spring-app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="137" selection-start="1028" selection-end="1028" vertical-scroll-proportion="-12.6" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/init/annotation/spring-app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="516" vertical-scroll-proportion="-0.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation/spring-app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="110" selection-start="8" selection-end="8" vertical-scroll-proportion="0.06593407" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/xml/spring-app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="113" selection-start="997" selection-end="997" vertical-scroll-proportion="0.57591623">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean/SimpleBeanWithInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="24" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.5134474">
@@ -905,8 +965,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml/spring-app.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="44" selection-start="909" selection-end="909" vertical-scroll-proportion="0.8181818">
+        <state line="21" column="44" selection-start="909" selection-end="909" vertical-scroll-proportion="-12.6">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/compile/jars/spring-beans-3.1.2.RELEASE.jar!/org/springframework/beans/factory/config/CustomEditorConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="95" selection-start="1114" selection-end="1122" vertical-scroll-proportion="0.8677686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/compile/jars/spring-beans-3.1.2.RELEASE.jar!/org/springframework/beans/propertyeditors/CustomDateEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.19946809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/compile/jars/spring-beans-3.1.2.RELEASE.jar!/org/springframework/beans/propertyeditors/StringTrimmerEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.19946809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/spring-app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="26" selection-start="3070" selection-end="3070" vertical-scroll-proportion="-11.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/PropertyEditorBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="44" selection-start="3342" selection-end="3342" vertical-scroll-proportion="0.42553192">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

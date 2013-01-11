@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="customEditors">
+            <map>
+                <entry key="java.util.Date">
+                    <bean class="org.springframework.beans.propertyeditors.CustomDateEditor">
+                        <constructor-arg name="dateFormat">
+                            <bean class="java.text.SimpleDateFormat">
+                                <constructor-arg>
+                                    <value>yyyy-MM-dd</value>
+                                </constructor-arg>
+                            </bean>
+                        </constructor-arg>
+                        <constructor-arg name="allowEmpty">
+                            <value>true</value>
+                        </constructor-arg>
+                    </bean>
+                </entry>
+
+                <entry key="java.lang.String">
+                    <bean class="org.springframework.beans.propertyeditors.StringTrimmerEditor">
+                        <constructor-arg value="true" />
+                    </bean>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="propertyEditorBean" class='com.gmail.schcrabicus.prospring3.tutorials.ch5.lifecycle.propertyEditors.xml.PropertyEditorBean'>
+
+        <property name="bytes">
+            <value>Hello world</value>
+        </property>
+
+        <property name="cls">
+            <value>java.lang.String</value>
+        </property>
+
+        <property name="date">
+            <value>2013-01-11</value>
+        </property>
+
+        <property name="file">
+            <value>classpath:com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/spring-app.xml</value>
+        </property>
+
+        <property name="floatValue">
+            <value>1.24f</value>
+        </property>
+
+        <property name="inputStream">
+            <value>classpath:com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/propertyEditors/xml/spring-app.xml</value>
+        </property>
+
+        <property name="locale">
+            <value>en_US</value>
+        </property>
+
+        <property name="pattern">
+            <value>a*b</value>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="prop1">val1</prop>
+                <prop key="prop2">val2</prop>
+            </props>
+        </property>
+
+        <property name="stringList">
+            <list>
+                <value>Kolya</value>
+                <value>Leha</value>
+                <value>Vova</value>
+            </list>
+        </property>
+
+        <property name="trimString">
+            <value>    trimmed string      </value>
+        </property>
+
+        <property name="url">
+            <value>http://www.tut.by</value>
+        </property>
+    </bean>
+
+</beans>
