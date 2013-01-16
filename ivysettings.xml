@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivysettings>
+    <property name="spring.version" value="3.1.2.RELEASE"/>
+
+    <settings defaultResolver="default"/>
+    <property name="ivy2-local-pattern" value="${user.home}/.ivy2/local/repository/[organisation]/[module]/[revision]/[module]-[revision](-[classifier]).[ext]" override="false" />
+    <property name="ivy2-shared-pattern" value="${user.home}/.ivy2/shared/repository/[organisation]/[module]/[revision]/[module]-[revision](-[classifier]).[ext]" override="false" />
+
+    <resolvers>
+        <chain name="default">
+            <filesystem name="local-ivy2" m2compatible="true" >
+                <artifact pattern="${ivy2-local-pattern}"/>
+                <ivy pattern="${ivy2-local-pattern}"/>
+            </filesystem>
+            <filesystem name="shared-ivy2" m2compatible="true" >
+                <artifact pattern="${ivy2-shared-pattern}"/>
+                <ivy pattern="${ivy2-shared-pattern}"/>
+            </filesystem>
+            <ibiblio name="central" m2compatible="true"/>
+        </chain>
+    </resolvers>
+</ivysettings>

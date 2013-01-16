@@ -35,12 +35,12 @@
 
     <dependencies>
         <!-- spring dependencies -->
-        <dependency org="org.springframework" name="spring-core" rev="3.1.2.RELEASE" conf="runtime->default" />
+        <dependency org="org.springframework" name="spring-core" rev="${spring.version}" conf="runtime->default" />
         <!--<dependency org="org.springframework" name="spring-web" rev="3.1.2.RELEASE"  conf="runtime->default" />-->
-        <dependency org="org.springframework" name="spring-context" rev="3.1.2.RELEASE" conf="runtime->default"/>
-        <dependency org="org.springframework" name="spring-beans" rev="3.1.2.RELEASE" conf="runtime->default"/>
-        <dependency org="org.springframework" name="spring-aop" rev="3.1.2.RELEASE" conf="runtime->default"/>
-        <dependency org="org.springframework" name="spring-webmvc" rev="3.1.2.RELEASE" conf="runtime->default"/>
+        <dependency org="org.springframework" name="spring-context" rev="${spring.version}" conf="runtime->default"/>
+        <dependency org="org.springframework" name="spring-beans" rev="${spring.version}" conf="runtime->default"/>
+        <dependency org="org.springframework" name="spring-aop" rev="${spring.version}" conf="runtime->default"/>
+        <dependency org="org.springframework" name="spring-webmvc" rev="${spring.version}" conf="runtime->default"/>
         <!--<dependency org="org.springframework" name="spring-tx" rev="3.1.2.RELEASE" conf="runtime->default"/>
         <dependency org="org.springframework.security" name="spring-security-core" rev="3.1.2.RELEASE" conf="runtime->default"/>
         <dependency org="org.springframework" name="spring-test" rev="3.1.2.RELEASE" />
@@ -54,6 +54,8 @@
 
         <!-- javassist dependency used by spring-aop and hibernate to enable byte code manipulation -->
         <dependency org="javassist" name="javassist" rev="3.12.1.GA" conf="runtime->default"/>
+
+        <!-- Code generation library required by Spring AOP -->
         <dependency org="cglib" name="cglib" rev="2.2.2" conf="runtime->default"/>
 
         <!-- log4j dependency -->
