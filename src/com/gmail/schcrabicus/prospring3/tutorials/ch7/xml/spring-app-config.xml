@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/p http://www.springframework.org/schema/spring-p-3.1.xsd">
+
+    <bean id="myBean1" class="com.gmail.schcrabicus.prospring3.tutorials.ch7.xml.MyBean" p:myDependency-ref="myDependency1" />
+
+    <bean id="myBean2" class="com.gmail.schcrabicus.prospring3.tutorials.ch7.xml.MyBean" p:myDependency-ref="myDependency2" />
+
+    <bean id="myDependencyTarget" class="com.gmail.schcrabicus.prospring3.tutorials.ch7.xml.MyDependency" />
+
+    <bean id="advice" class="com.gmail.schcrabicus.prospring3.tutorials.ch7.xml.MyAdvice" />
+
+    <bean id="advisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+        <property name="advice">
+            <ref local="advice" />
+        </property>
+        <property name="pointcut">
+            <bean class="org.springframework.aop.aspectj.AspectJExpressionPointcut">
+                <property name="expression">
+                    <value>execution(* foo*(..))</value>
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="myDependency1" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <ref local="myDependencyTarget" />
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>advice</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="myDependency2" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <ref local="myDependencyTarget" />
+        </property>
+
+        <property name="interceptorNames">
+            <list>
+                <value>advisor</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>

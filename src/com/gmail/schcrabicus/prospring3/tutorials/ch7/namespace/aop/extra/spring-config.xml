@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+
+    <bean id="advice" class="com.gmail.schcrabicus.prospring3.tutorials.ch7.namespace.aop.extra.MyAdvice" />
+
+    <aop:config>
+
+        <aop:pointcut id="fooPointcut" expression="execution(* foo*(int))"/>
+
+        <aop:aspect ref="advice">
+            <aop:before method="simpleBeforeAdvice" pointcut-ref="fooPointcut" />
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="myDependency" class="com.gmail.schcrabicus.prospring3.tutorials.ch7.namespace.aop.extra.MyDependency"/>
+
+    <bean id="myBean" class="com.gmail.schcrabicus.prospring3.tutorials.ch7.namespace.aop.extra.MyBean">
+        <property name="myDependency" ref="myDependency"/>
+    </bean>
+
+</beans>
