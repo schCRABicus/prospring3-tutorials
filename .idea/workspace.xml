@@ -2,32 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a4f178-416e-477e-8696-d4df32bdcf43" name="Initial commit" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/DecoratorIntroduction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/DecoratorIntroductionAdvisor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/IDecorator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/IntroductionExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/Launcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/MyAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/MyAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/MyBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/MyBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/MyBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/MyDependency.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/MyDependency.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/MyDependency.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/Myadvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/NamespaceExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/ProxyFactoryBeanExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/TargetBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/spring-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/spring-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/Launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/Launcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyAdvice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/MyAdvice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/MyBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyDependency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/MyDependency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/spring-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/spring-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="prospring3-tutorials-standalone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358827196656" ignored="false" />
+    <file path="/Dummy.txt" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1359000525655" ignored="false" />
     <file path="/ivy.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358402029558" ignored="false" />
     <file path="$PROJECT_DIR$/../first-spring-hibernate-simple/ivy.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357026913912" ignored="false" />
     <file path="/build.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357028420151" ignored="false" />
@@ -59,7 +48,7 @@
     <file path="/spring-app-config-nonsingleton.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357621793131" ignored="false" />
     <file path="/RegularBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357622222582" ignored="false" />
     <file path="/LazyInitBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357622282881" ignored="false" />
-    <file path="/Launcher.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358833294237" ignored="false" />
+    <file path="/Launcher.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358917088432" ignored="false" />
     <file path="/spring-app-config-lazyinit.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1357622649969" ignored="false" />
     <file path="/SimpleBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358485494563" ignored="false" />
     <file path="/spring-app.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358057927663" ignored="false" />
@@ -146,16 +135,16 @@
     <file path="/MyIntroductionAdvisor.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358746664931" ignored="false" />
     <file path="/TargetBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358830966835" ignored="false" />
     <file path="/MyIntroductionExample.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358747140543" ignored="false" />
-    <file path="/MyDependency.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358831745649" ignored="false" />
-    <file path="/MyBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358831805121" ignored="false" />
-    <file path="/MyAdvice.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358833041915" ignored="false" />
+    <file path="/MyDependency.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358916360688" ignored="false" />
+    <file path="/MyBean.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358916399024" ignored="false" />
+    <file path="/MyAdvice.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358916947681" ignored="false" />
     <file path="/spring-app-config.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358831278343" ignored="false" />
     <file path="/ProxyFactoryBeanExample.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358829908848" ignored="false" />
     <file path="/IDecorator.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358830762775" ignored="false" />
     <file path="/DecoratorIntroduction.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358830848908" ignored="false" />
     <file path="/DecoratorIntroductionAdvisor.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358830923251" ignored="false" />
     <file path="/Myadvice.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358831897297" ignored="false" />
-    <file path="/spring-config.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358833363985" ignored="false" />
+    <file path="/spring-config.xml" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358917053895" ignored="false" />
     <file path="/NamespaceExample.java" changelist="e2a4f178-416e-477e-8696-d4df32bdcf43" time="1358832337212" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -215,48 +204,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NamespaceExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/NamespaceExample.java">
+      <file leaf-file-name="MyDependency.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyDependency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="67" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="11" column="10" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MyBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/MyBean.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+            <state line="16" column="31" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MyAdvice.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/MyAdvice.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="52" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
+            <state line="53" column="79" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/spring-config.xml">
+      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="73" selection-start="666" selection-end="666" vertical-scroll-proportion="0.41457286">
+            <state line="11" column="114" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Launcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/Launcher.java">
+      <file leaf-file-name="Launcher.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="23" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+            <state line="17" column="74" selection-start="633" selection-end="633" vertical-scroll-proportion="0.4264214">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -284,15 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/IDecorator.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/DecoratorIntroduction.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/DecoratorIntroductionAdvisor.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/TargetBean.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/spring-app-config.xml" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/IntroductionExample.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/MyDependency.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/MyBean.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/Myadvice.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/NamespaceExample.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/spring-config.xml" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/MyDependency.java" />
@@ -300,14 +278,23 @@
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/MyAdvice.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/Launcher.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/MyDependency.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/MyAdvice.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyDependency.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyBean.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyAdvice.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/Launcher.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -337,8 +324,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -452,9 +437,183 @@
               <option name="myItemId" value="tutorials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="composite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aspectj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advisors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advisors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advisors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -474,9 +633,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -487,11 +646,11 @@
       <recent name="com.gmail.schcrabicus.prospring3.tutorials.ch5.lifecycle.destroy.xml" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite" />
       <recent name="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra" />
       <recent name="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/factoryBeans/xml" />
       <recent name="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/annotation" />
       <recent name="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/destroy/disposableBean" />
-      <recent name="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch4/value/injection/spel_annotation" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Launcher">
@@ -586,11 +745,11 @@
     <configuration default="false" name="Launcher" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gmail.schcrabicus.prospring3.tutorials.ch7.namespace.aop.extra.*" />
+          <option name="PATTERN" value="com.gmail.schcrabicus.prospring3.tutorials.ch7.namespace.aop.aspectj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch7.namespace.aop.extra.Launcher" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch7.namespace.aop.aspectj.Launcher" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -619,19 +778,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -658,6 +804,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -706,10 +865,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Launcher" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NamespaceExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IntroductionExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ProxyFactoryBeanExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MyIntroductionExample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Launcher" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Launcher" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NamespaceExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.IntroductionExample" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -745,8 +904,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1744" sideWeight="0.4876494" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -760,18 +919,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2199037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23916534" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16494024" sideWeight="0.7223114" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2776886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16494024" sideWeight="0.7223114" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2776886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23916534" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -844,88 +1003,24 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/ProxyFactoryBeanExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="84" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/IDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+        <state line="21" column="12" selection-start="828" selection-end="1106" vertical-scroll-proportion="0.7613065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/DecoratorIntroduction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch6/aop/advisors/dynamic/annotation/AnnotationPointcutExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+        <state line="15" column="13" selection-start="593" selection-end="593" vertical-scroll-proportion="0.28645834">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/DecoratorIntroductionAdvisor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch6/aop/advisors/dynamic/annotation/AdviceRequired.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/TargetBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+        <state line="16" column="18" selection-start="510" selection-end="510" vertical-scroll-proportion="0.32608697">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/spring-app-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="126" selection-start="906" selection-end="906" vertical-scroll-proportion="-11.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/xml/intriduction/IntroductionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/MyDependency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/MyBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/Myadvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="104" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/NamespaceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="67" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,31 +1033,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/MyAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="52" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
+        <state line="23" column="61" selection-start="360" selection-end="861" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/spring-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="828" selection-end="1106" vertical-scroll-proportion="0.7613065">
+        <state line="22" column="11" selection-start="832" selection-end="1122" vertical-scroll-proportion="0.57591623">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+        <state line="18" column="25" selection-start="443" selection-end="653" vertical-scroll-proportion="0.4264214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/MyAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="23" selection-start="1013" selection-end="1525" vertical-scroll-proportion="0.82474226">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/extra/spring-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/MyDependency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="73" selection-start="666" selection-end="666" vertical-scroll-proportion="0.41457286">
+        <state line="9" column="13" selection-start="251" selection-end="251" vertical-scroll-proportion="0.31914893">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="79" selection-start="2132" selection-end="2132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="39" selection-end="463" vertical-scroll-proportion="-0.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyDependency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="10" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="114" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/composite/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="398" selection-end="667" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/MyBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch7/namespace/aop/aspectj/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="74" selection-start="633" selection-end="633" vertical-scroll-proportion="0.4264214">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
