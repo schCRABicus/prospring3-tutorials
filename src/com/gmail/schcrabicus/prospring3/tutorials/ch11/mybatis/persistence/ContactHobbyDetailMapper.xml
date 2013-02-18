@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.gmail.schcrabicus.prospring3.tutorials.ch11.mybatis.persistence.ContactHobbyDetailMapper">
+
+    <insert id="save" parameterType="Hobby" useGeneratedKeys="false">
+        INSERT INTO contact_hobby (hobby_id, contact_id)
+        VALUES
+        <foreach collection="contacts" item="contact" open="(" separator="),(" close=")" >
+            #{hobbyId}, #{contact.id}
+        </foreach>
+    </insert>
+
+    <delete id="deleteHobbyDetailForContact" parameterType="long">
+        DELETE FROM contact_hobby WHERE contact_id = #{contactId}
+    </delete>
+
+</mapper>
