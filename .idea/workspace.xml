@@ -2,172 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/dao/AbstractMappingSqlQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/auditor/AuditorAwareBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/auditor/AuditorAwareBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/criteria/api/domain/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/domain/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/domain/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/domain/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/domain/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/domain/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/domain/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/domain/ContactAudit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/domain/ContactAudit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/repository/ContactAuditRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/repository/ContactAuditRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/services/ContactAuditService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/services/ContactAuditService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/services/impl/ContactAuditServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/services/impl/ContactAuditServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/dao/impl/hibernate/ContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/ContactHobbyDetailMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/ContactHobbyDetailMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/ContactMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/repository/ContactRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/repository/ContactRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/repository/ContactRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/services/ContactService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/services/ContactService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/service/ContactService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/service/ContactService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/services/impl/ContactServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/services/impl/ContactServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/service/impl/ContactServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/service/impl/ContactServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/criteria/api/domain/ContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/domain/ContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/domain/ContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/domain/ContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/domain/ContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/basic/ContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/ContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/ContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/domain/ContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/ContactTelDetailMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/ContactTelDetailMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/dao/impl/hibernate/HibernateDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/HibernateEnversSimple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/criteria/api/domain/Hobby.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/domain/Hobby.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/domain/Hobby.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/domain/Hobby.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/domain/Hobby.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/domain/Hobby.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/HobbyMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/HobbyMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/basic/dao/IContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/dao/IContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/dao/IContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/dao/IContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/dao/IContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/basic/dao/IDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/dao/IDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/dao/IDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/dao/IDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/dao/IDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/dao/InsertContact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/dao/InsertContactTelDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/dao/JdbcContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/dao/JdbcContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/dao/JdbcContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/Launcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/MyBatisSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/basic/dao/PlainJDBCContactDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/basic/PlainJDBCSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/PlainJDBCSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/PlainJDBCSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/domain/SearchCriteria.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/dao/SelectAllContact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/dao/SelectContactByFirstName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/SimpleJdbcTemplateExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/SpringHibernateSimple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/criteria/api/SpringJPACriteriaLauncher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/SpringJPASimple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/SpringJPASimple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/dao/UpdateContact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/application.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bundles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/config/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/basic/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/configs/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/orm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/data/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/data/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/data/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/data/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/data/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/basic/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/config/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/config/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/data/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/config/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/config/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/config/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/config/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/config/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/config/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/configs/spring-app-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/spring-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/config/spring-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/config/spring-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/config/spring-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/config/spring-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/config/spring-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/spring-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/configs/spring-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/config/spring-h2-datasource.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/spring-logger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/config/spring-logging.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/config/spring-logging.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/config/spring-logging.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/config/spring-logging.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-logging.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/config/spring-logging.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/config/spring-logging.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/configs/spring-logging.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/config/spring-mysql-datasource.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/hibernate/envers/data/test_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/intro/data/test_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data/data/test_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/data/test_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/data/test_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/basic/test_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/mappingSqlQuery/config/test_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/rowMapper/config/test_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch8/jdbc/spring/basic/test_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch9/hibernate/simple/data/test_data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/converter/ApplicationConversionServiceFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/custom/CheckIndividualCustomer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/domain/Contact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Contact.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/ContactValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Customer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/CustomerType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/editor/DateTimeEditor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Gender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/custom/IndividualCustomerValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/service/MyBeanValidationService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/PropEditorExaxmple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/SpringValidatorSample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/converter/StringToDateTimeConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/config/ValidationMessages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/config/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/config/spring-app-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/config/spring-app-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ivy.xml" afterPath="$PROJECT_DIR$/ivy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prospring3-tutorials-standalone.iml" afterPath="$PROJECT_DIR$/prospring3-tutorials-standalone.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="prospring3-tutorials-standalone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361159436144" ignored="false" />
+    <file path="/Dummy.txt" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361420280192" ignored="false" />
     <file path="/PlainJDBCSample.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359438921828" ignored="false" />
     <file path="/log4j.properties" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1360904723046" ignored="false" />
     <file path="/IContactDao.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359606829811" ignored="false" />
     <file path="/JdbcContactDao.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359438178917" ignored="false" />
     <file path="/ContactTelDetail.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1360040461314" ignored="false" />
     <file path="/spring-datasource.xml" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361165666555" ignored="false" />
-    <file path="/spring-app-config.xml" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361163067580" ignored="false" />
+    <file path="/spring-app-config.xml" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361421251079" ignored="false" />
     <file path="/SelectAllContact.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359435052228" ignored="false" />
     <file path="/fragment.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1360298400838" ignored="false" />
     <file path="/SelectContactByFirstName.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359434969540" ignored="false" />
@@ -177,10 +42,10 @@
     <file path="/IDao.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359606801919" ignored="false" />
     <file path="/InsertContactTelDetail.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359437079516" ignored="false" />
     <file path="/AppConfig.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359438873120" ignored="false" />
-    <file path="/ivy.xml" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1360903601311" ignored="false" />
+    <file path="/ivy.xml" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361247710475" ignored="false" />
     <file path="/schema.sql" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1360213825727" ignored="false" />
     <file path="/test_data.sql" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359520601165" ignored="false" />
-    <file path="/Contact.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361162400554" ignored="false" />
+    <file path="/Contact.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361335402233" ignored="false" />
     <file path="/Hobby.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359523389276" ignored="false" />
     <file path="/HibernateDaoImpl.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359608773385" ignored="false" />
     <file path="/ContactDao.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1359611923166" ignored="false" />
@@ -215,6 +80,20 @@
     <file path="/ContactTelDetailMapper.xml" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1360820976833" ignored="false" />
     <file path="/Launcher.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361164737067" ignored="false" />
     <file path="/build.xml" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1360904049295" ignored="false" />
+    <file path="/application.properties" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361248955163" ignored="false" />
+    <file path="/DateTimeEditor.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361248340816" ignored="false" />
+    <file path="/PropEditorExaxmple.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361335103806" ignored="false" />
+    <file path="/StringToDateTimeConverter.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361251861182" ignored="false" />
+    <file path="/ApplicationConversionServiceFactory.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361334515151" ignored="false" />
+    <file path="/ContactValidator.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361335544534" ignored="false" />
+    <file path="/SpringValidatorSample.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361335748249" ignored="false" />
+    <file path="/Customer.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361422616841" ignored="false" />
+    <file path="/CustomerType.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361336178547" ignored="false" />
+    <file path="/Gender.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361336338328" ignored="false" />
+    <file path="/MyBeanValidationService.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361336615672" ignored="false" />
+    <file path="/ValidationMessages.properties" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361337294402" ignored="false" />
+    <file path="/CheckIndividualCustomer.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361422180606" ignored="false" />
+    <file path="/IndividualCustomerValidator.java" changelist="56d1f5a6-8911-42fc-abd1-47d1f40ba2f9" time="1361422261111" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,93 +152,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="schema.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/data/schema.sql">
+      <file leaf-file-name="SpringValidatorSample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/SpringValidatorSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="61" column="61" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/log4j.properties">
+      <file leaf-file-name="ValidationMessages.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/config/ValidationMessages.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="35" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+            <state line="1" column="28" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-datasource.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-datasource.xml">
+      <file leaf-file-name="Customer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.369863">
+            <state line="73" column="22" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.67153287">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gender.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Gender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="5" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/CustomerType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="5" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactValidator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/ContactValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="28" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckIndividualCustomer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/custom/CheckIndividualCustomer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="53" selection-start="442" selection-end="469" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndividualCustomerValidator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/custom/IndividualCustomerValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="8" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="spring-app-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-app-config.xml">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/config/spring-app-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="102" selection-start="711" selection-end="711" vertical-scroll-proportion="-6.6">
+            <state line="21" column="32" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-9.2">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/service/impl/ContactServiceImpl.java">
+      <file leaf-file-name="MyBeanValidationService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/service/MyBeanValidationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="113" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Launcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/Launcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contact.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/domain/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="18" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/repository/ContactRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/service/ContactService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="24" column="44" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -382,30 +264,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/ContactMapper.xml" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/ContactTelDetailMapper.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/persistence/ContactTelDetailMapper.xml" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/service/impl/ContactServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/MyBatisSample.java" />
-        <option value="$PROJECT_DIR$/ivy.xml" />
-        <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-logging.xml" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/domain/Contact.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-app-config.xml" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/Launcher.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/service/ContactService.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/repository/ContactRepository.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/service/impl/ContactServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-datasource.xml" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/config/application.properties" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/converter/StringToDateTimeConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/converter/ApplicationConversionServiceFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/config/spring-app-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/PropEditorExaxmple.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Contact.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/ContactValidator.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/CustomerType.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Gender.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/service/MyBeanValidationService.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/config/ValidationMessages.properties" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/config/spring-app-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/custom/CheckIndividualCustomer.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/custom/IndividualCustomerValidator.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/SpringValidatorSample.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Customer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="52" />
-    <option name="width" value="1299" />
-    <option name="height" value="715" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -466,8 +348,30 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,7 +393,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transactions" />
+              <option name="myItemId" value="validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,7 +423,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transactions" />
+              <option name="myItemId" value="validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -537,63 +487,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transactions" />
+              <option name="myItemId" value="validation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transactions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring3-tutorials-standalone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transactions" />
+              <option name="myItemId" value="validator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -619,7 +517,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transactions" />
+              <option name="myItemId" value="validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -645,7 +547,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
+              <option name="myItemId" value="validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conversion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -664,6 +570,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifecycle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prospring3-tutorials-standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifecycle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="i18n" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -712,51 +666,7 @@
       <recent name="$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch10/jpa2/spring/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Launcher">
-    <configuration default="false" name="SpringJPASimple" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.schcrabicus.prospring3.tutorials.ch10.jpa2.spring.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch10.jpa2.spring.data.SpringJPASimple" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="prospring3-tutorials-standalone" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RegexpPointcut" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.schcrabicus.prospring3.tutorials.ch6.aop.advisors.dynamic.regexp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch6.aop.advisors.dynamic.regexp.RegexpPointcut" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="prospring3-tutorials-standalone" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SpringValidatorSample">
     <configuration default="false" name="HibernateEnversSimple" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -815,6 +725,50 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch13.transactions.Launcher" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="prospring3-tutorials-standalone" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PropEditorExaxmple" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.schcrabicus.prospring3.tutorials.ch14.validation.conversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch14.validation.conversion.PropEditorExaxmple" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="prospring3-tutorials-standalone" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringValidatorSample" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.schcrabicus.prospring3.tutorials.ch14.validation.validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.gmail.schcrabicus.prospring3.tutorials.ch14.validation.validator.SpringValidatorSample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -921,19 +875,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SpringJPASimple" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RegexpPointcut" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HibernateEnversSimple" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MyBatisSample" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Launcher" />
+      <item index="0" class="java.lang.String" itemvalue="Application.HibernateEnversSimple" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyBatisSample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Launcher" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PropEditorExaxmple" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SpringValidatorSample" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Launcher" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MyBatisSample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HibernateEnversSimple" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RegexpPointcut" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SpringJPASimple" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SpringValidatorSample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PropEditorExaxmple" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Launcher" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MyBatisSample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HibernateEnversSimple" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -969,30 +923,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="52" width="1299" height="715" extended-state="0" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22053872" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19282869" sideWeight="0.19903691" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13705179" sideWeight="0.7849117" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13647246" sideWeight="0.7861953" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989899" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21508828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2138047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16919394" sideWeight="0.76094276" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23905724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16812749" sideWeight="0.77367574" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22632423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1071,124 +1025,112 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/service/impl/ContactServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/converter/ApplicationConversionServiceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="37" selection-start="3819" selection-end="3819" vertical-scroll-proportion="0.0">
+        <state line="46" column="60" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/config/spring-app-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="115" selection-start="1790" selection-end="1790" vertical-scroll-proportion="-8.24" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/converter/StringToDateTimeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="689" selection-end="689" vertical-scroll-proportion="0.33256352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/config/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/PropEditorExaxmple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="89" selection-end="310" vertical-scroll-proportion="0.0">
+        <state line="27" column="6" selection-start="559" selection-end="1251" vertical-scroll-proportion="0.7126697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivysettings.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/CustomerType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Gender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/service/MyBeanValidationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="44" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch5/lifecycle/i18n/spring-app.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/config/spring-app-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="108" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+        <state line="21" column="32" selection-start="1196" selection-end="1196" vertical-scroll-proportion="-9.2">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ivy.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/config/ValidationMessages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="83" selection-start="4243" selection-end="4243" vertical-scroll-proportion="0.0">
+        <state line="1" column="28" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch11/mybatis/MyBatisSample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/ContactValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="34" selection-start="4529" selection-end="4529" vertical-scroll-proportion="0.0">
+        <state line="15" column="28" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/data/schema.sql">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/custom/CheckIndividualCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-logging.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="93" selection-start="704" selection-end="704" vertical-scroll-proportion="0.28846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-app-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="102" selection-start="711" selection-end="711" vertical-scroll-proportion="-6.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
+        <state line="15" column="53" selection-start="442" selection-end="469" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/domain/Contact.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/validator/custom/IndividualCustomerValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="18" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0">
+        <state line="32" column="8" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/service/ContactService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/SpringValidatorSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="61" column="61" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/repository/ContactRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/validator/domain/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/service/impl/ContactServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="113" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/schcrabicus/prospring3/tutorials/ch13/transactions/config/spring-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.369863">
+        <state line="73" column="22" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.67153287">
           <folding />
         </state>
       </provider>

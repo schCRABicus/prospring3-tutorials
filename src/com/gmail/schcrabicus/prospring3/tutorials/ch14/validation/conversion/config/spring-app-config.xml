@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <context:annotation-config />
+
+    <context:property-placeholder location="classpath:**/ch14/validation/conversion/config/application.properties" />
+
+    <util:properties id="appProps" location="classpath:com/gmail/schcrabicus/prospring3/tutorials/ch14/validation/conversion/config/application.properties" />
+
+    <!--<bean id="dateTimeEditor" class="com.gmail.schcrabicus.prospring3.tutorials.ch14.validation.conversion.editor.DateTimeEditor">
+        <constructor-arg value="${date.format.pattern}" />
+    </bean>
+
+    <bean id="customEditorConfigurer" class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="customEditors">
+            <map>
+                <entry key="org.joda.time.DateTime">
+                    <ref local="dateTimeEditor" />
+                </entry>
+            </map>
+        </property>
+    </bean>-->
+
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="com.gmail.schcrabicus.prospring3.tutorials.ch14.validation.conversion.converter.StringToDateTimeConverter" />
+            </set>
+        </property>
+    </bean>
+
+    <bean id="conversionService1" class="com.gmail.schcrabicus.prospring3.tutorials.ch14.validation.conversion.converter.ApplicationConversionServiceFactory" />
+
+    <bean id="clarense" class="com.gmail.schcrabicus.prospring3.tutorials.ch14.validation.conversion.domain.Contact">
+        <property name="firstName">
+            <value>Clarense</value>
+        </property>
+        <property name="lastName">
+            <value>Ho</value>
+        </property>
+        <property name="birthDate">
+            <value>1970-12-31</value>
+        </property>
+        <property name="personalSite">
+            <value>http://www.clarence.com</value>
+        </property>
+    </bean>
+
+    <bean id="myContact" class="com.gmail.schcrabicus.prospring3.tutorials.ch14.validation.conversion.domain.Contact">
+        <property name="firstName">
+            <value>${myContact.firstName}</value>
+        </property>
+        <property name="lastName">
+            <value>${myContact.lastName}</value>
+        </property>
+        <property name="birthDate">
+            <value>${myContact.birthDate}</value>
+        </property>
+        <property name="personalSite">
+            <value>${myContact.personalSite}</value>
+        </property>
+    </bean>
+
+</beans>

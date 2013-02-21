@@ -106,6 +106,10 @@
         <dependency org="org.mybatis" name="mybatis" rev="3.0.1" conf="runtime->default"/>
         <dependency org="org.mybatis" name="mybatis-spring" rev="1.1.1" conf="runtime->default"/>
 
+        <!-- Validation -->
+        <dependency org="javax.validation" name="validation-api" rev="1.0.0.GA" conf="runtime->default"/>
+        <dependency org="org.hibernate" name="hibernate-validator" rev="4.3.1.Final" conf="runtime->default"/>
+
     </dependencies>
 
 </ivy-module>
